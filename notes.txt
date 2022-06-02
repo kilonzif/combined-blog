@@ -1,0 +1,14 @@
+Blog - 
+
+Django startproject
+Django startapp
+Django settings
+Models.py DB 
+
+Views/URLs Routing
+
+Authentication 
+Forms
+CRUD
+Templating
+Deployment 
