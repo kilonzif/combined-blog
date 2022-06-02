@@ -30,7 +30,7 @@ def update_blog(request,blog_id):
     blog_form=BlogCreate(request.POST or None,instance=blog_up)
     if blog_form.is_valid():
         blog_form.save()
-        return redirect('index')
+        return redirect('home')
     return render (request,'upload_form.html',{'upload':blog_form})
 
 def delete_blog(request,blog_id):
