@@ -11,7 +11,7 @@ from django.contrib import messages
 from django.core.mail import EmailMessage
 # Create your views here.
 
-@login_required
+
 def home(request):
     blogs = BlogPost.objects.all()
     return render(request,'blogapp/index.html',{'blogs':blogs})
