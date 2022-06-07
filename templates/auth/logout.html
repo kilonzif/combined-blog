@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<p>You have succefully logged out! </p>
+
+<small> 
+    <a href="{% url 'login' %}">Log In</a>
+    </small>
+{% endblock content %}

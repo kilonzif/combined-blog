@@ -11,4 +11,10 @@ Authentication
 Forms
 CRUD
 Templating
+Template Inheritance
 Deployment 
+
+Cloud Image Hosting - Cloudinary
+UI/UX
+SMTP - Sending Emails
+Ajax Requests

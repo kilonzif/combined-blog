@@ -1,0 +1,12 @@
+<h1>Blogs</h1>
+
+<div class="container">
+    {% for blog in blogs %}
+
+    <h2>{{ blog.title }}</h2>
+    <img src="https://res.cloudinary.com/devsamuelmwangi/image/upload/v1/{{ blog.image }}" alt="{{ blog.title }}">
+    <p> {{ blog.content }}</p>
+    <p> Blog Author - {{ blog.author }}</p>
+    <p> Date Creted - {{ blog.dateTime }}</p>
+    {% endfor%}
+</div>
